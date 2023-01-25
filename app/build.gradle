@@ -5,12 +5,16 @@ plugins {
 
 android {
     namespace 'es.nexcreep.testing.loginregister'
-    compileSdk 32
+    compileSdk 33
+
+    viewBinding {
+        enabled = true
+    }
 
     defaultConfig {
         applicationId "es.nexcreep.testing.loginregister"
         minSdk 23
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
