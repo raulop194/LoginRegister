@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">LoginRegister</string>
+    <string name="nombre_usuario">Nombre Usuario:</string>
+    <string name="contrase_a">Contraseña:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="nacionalidad">Nacionalidad:</string>
+    <string name="aficiones">Aficiones:</string>
+    <string name="h">H</string>
+    <string name="m">M</string>
+    <string name="tenis">Tenis</string>
+    <string name="f_tbol">Fútbol</string>
+    <string name="registrar">Registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string-array name="nacionalidades">
+        <item>España</item>
+        <item>Reino Unido</item>
+        <item>Portugal</item>
+        <item>Somalía</item>
+        <item>Zimbague</item>
+    </string-array>
     <string name="usuario">Usuario:</string>
     <string name="NOne" />
     <string name="contrasena">Contraseña:</string>
