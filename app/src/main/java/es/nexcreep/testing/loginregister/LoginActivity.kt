@@ -5,11 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.view.View
-import android.widget.Button
 import android.widget.EditText
 import androidx.core.view.isVisible
-import androidx.core.widget.addTextChangedListener
 import es.nexcreep.testing.loginregister.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -49,7 +46,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun login(eT : ArrayList<EditText>) : Boolean {
-        return binding.editTextContra.text.toString().equals(binding.editTextUser.text.toString())
+        return binding.editTextContra.text.toString() == binding.editTextUser.text.toString()
                 && eT.all { it.text.isNotEmpty() && it.text.isNotBlank() }
     }
 }
