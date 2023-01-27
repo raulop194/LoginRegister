@@ -114,7 +114,7 @@
             android:layout_height="wrap_content"
             android:autofillHints=""
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="textPersonName|textPassword"
             android:minHeight="48dp"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"

@@ -68,7 +68,7 @@
             android:layout_weight="1"
             android:autofillHints=""
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="textPersonName|textPassword"
             android:minHeight="48dp"
             tools:ignore="LabelFor,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
     </LinearLayout>
